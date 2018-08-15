@@ -26,7 +26,7 @@ class SoundWidget(Widget):
         # スクリプトの絶対パスを入手
         self.dir = os.path.dirname(os.path.abspath(__name__))
         # それに対してSPTKを結合
-        self.path = self.dir + "\SPTK-3.5\\bin"
+        self.path = self.dir + "\SPTK\\bin"
         # 一時保存フォルダ。まだ使う予定がない。
         self.saveDir = "./save/filename"
 
