@@ -1,6 +1,6 @@
 SPTK.zipを解凍してから実行。
 
-*libs*
+**libs**
 
 sys,
 subprocess,
