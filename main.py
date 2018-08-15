@@ -68,7 +68,7 @@ class SoundWidget(Widget):
 
 
     def get_cmd(self, cmd):
-        command = self.path + "\{cmd}\{cmd}.exe".format(cmd=cmd)
+        command = self.path + "\{cmd}.exe".format(cmd=cmd)
         return command
 
 
