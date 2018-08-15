@@ -1,0 +1,40 @@
+
+
+<SoundWidget>:
+    BoxLayout:
+        size: root.size
+        orientation: "vertical"
+
+        BoxLayout:
+            orientation: "horizontal"
+
+            Label:
+                text: "None"
+                size_hint: 2, 1
+
+            BoxLayout:
+                orientation: "vertical"
+                size_hint: 1, 1
+
+                BoxLayout:
+                    orientation: "horizontal"
+                    size_hint: 1, 1
+
+                    Button:
+                        text: "<"
+                        on_press:
+                            root.down_pitch()
+
+                    Label:
+                        text: str(root.pitch_var)
+
+                    Button:
+                        text: ">"
+                        on_press:
+                            root.up_pitch()
+
+                Button:
+                    text: "ON / OFF"
+                    size_hint: 1, 9
+                    on_press:
+                        root.switch()
