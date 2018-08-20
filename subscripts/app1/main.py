@@ -4,7 +4,7 @@ import numpy as np
 import struct
 import pyaudio
 import wave
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 
 
 from kivy.app import App
